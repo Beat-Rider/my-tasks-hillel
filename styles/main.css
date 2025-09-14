@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.6) url(../images/backg.jpg);
+  background-blend-mode:hard-light; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;     
+  background-size: cover;    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll; 
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.7) url(../images/header_repeat.jpg);
+  background-blend-mode:saturation; 
+  background-repeat: repeat-x;  
+  border: 2px dotted brown;
+  margin: 5px;
+  width: 98%;
+  font-size: large;
+  font-weight: 600;
+  display: flex;               
+  justify-content: center; 
+  align-items: center;  
+  padding: 10px;
+}
+
+.logo {
+  justify-content: left;      
+}
+
+.nav_bar {
+  margin-left: 200px;
+  border: 20px;
+  display: flex; 
+  gap: 20px;     
+}
+
+.where h2 {
+  padding-bottom: 5px;
+}
+
+.form_wrapper {
+  width: 60vw;
+  background-color: rgba(187, 163, 163, 0.7);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.forms {
+  text-align: center;
+  line-height: 1.9;
+}
+
+legend {
+  font-size: large;
+  margin-bottom: 15px ;
+}
+
+label {
+  margin-right: 10px; 
+}
+
+.t_area {
+  display: flex;
+  align-items: flex-start; 
+  gap: 35px;
+  margin-left: 25px; 
+  margin-top: 15px;
+  margin-bottom: 10px; 
+}
+
+button {
+  margin: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: aqua;
+  padding: 10px 20px;         
+  border-radius: 6px;         
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+input[type="text"],[type="date"],[type="email"],[type="password"],[type="number"]{
+  padding: 5px;
+}
+
+.padd {
+  padding: 5px;
+}
+
+input[type="submit"],[type="reset"],[type="file"] {
+  margin: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: aqua;
+  padding: 10px 20px;         
+  border-radius: 6px;         
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+input[type="reset"]:hover {
+  font-weight: 700;
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+input[type="file"]:hover {
+  font-weight: 700;
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+button:hover {
+  font-weight: 700;
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+input[type="submit"]:hover {
+  font-weight: 700;
+  background-color: blue;
+  transform: scale(1.1);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+  transform: scale(1.6);
+}
+
+.list_style a {
+  color: rgb(253, 253, 253);
+  font-size: larger;
+}
+
+.frame a {
+  color: rgb(253, 253, 253);
+}
+
+.contacts a {
+  color: rgb(253, 253, 253);
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}
+
+.footer{    
+  width: 98%;
+  text-align: center;
+  background-color: rgb(61, 61, 255);
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 3.5px;
+  line-height: 1.7;
+}
+
+.content {
+  flex: 1; 
+  margin: 5px;
+  border: 5px double black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 900px;
+  word-wrap: break-word;
+  background-color: rgb(109, 40, 173);
+  padding: 20px;
+}
+
+.contacts {
+  width: 900px;
+}
+
+.contacts p {
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.contacts h2 {
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.gallery img:hover {
+  filter: opacity(0.8);
+}
+
+.gallery {
+  width: 1210px;
+  margin: 0 auto;
+}
+
+.gallery img {
+  width: 400px;
+  object-fit: cover; 
+}
+
+.list_style {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.list_basic{
+    list-style-image: url("../images/ul_img.jpg");
+    list-style-position: inside;
+    line-height: 1.4;
+}
+
+.history h2 {
+  letter-spacing: 2px;
+}
+
+.history  {
+  line-height: 1.5;
+}
+
+table {
+border-collapse: separate;
+width: 85%;
+margin: 25px auto;
+font-family: Arial, sans-serif;
+background-color: lightskyblue;
+}
+
+th,
+td {
+color: rgb(64, 175, 30);
+border: 2px solid rgb(169, 101, 236);
+padding: 12px 120px;
+text-align: center;
+}
+
+th {
+font-size: 22px;
+}
+
+td {
+font-size: 18px;
+}
+
+#section7 {
+text-align: center;
+}

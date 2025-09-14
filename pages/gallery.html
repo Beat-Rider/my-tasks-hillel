@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="Logo">
+        <img src="../images/Logo.png" alt="My Logo Here" />
+      </div>
+
+      <div class="nav_bar">
+        <pre><a href="../index.html" target="_blank">Main</a>    <a href="tutorials.html" target="_blank">Tutorials</a>    <a href="anchors.html" target="_blank">Anchors</a>    <a href="contacts.html" target="_blank">Contacts</a>    <a href="serviсes.html" target="_blank">Services</a>    <a href="gallery.html" target="_blank">Gallery</a>    <a href="interactive.html" target="_blank">Interactive</a></pre>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <a href="../images/1.jpg" title="Slim Freeride Turn" target="_blank">
+        <img src="../images/1.jpg" alt="error, check code (1)" />
+      </a>
+
+      <a href="../images/2.jpg" title="Huge Jump Whip Style" target="_blank">
+        <img src="../images/2.jpg" alt="error, check code (2)" />
+      </a>
+
+      <a href="../images/3.jpg" title="Rocky Mountain Ride" target="_blank">
+        <img src="../images/3.jpg" alt="error, check code (3)" />
+      </a>
+    </div>
+    <div class="gallery">
+      <a href="../images/4.jpg" title="Variation Drop Down" target="_blank">
+        <img src="../images/4.jpg" alt="error, check code (4)" />
+      </a>
+
+      <a href="../images/5.jpg" title="Body Position" target="_blank">
+        <img src="../images/5.jpg" alt="error, check code (5)" />
+      </a>
+
+      <a href="../images/6.jpg" title="Sea And My Old Bike" target="_blank">
+        <img src="../images/6.jpg" alt="error, check code (6)" width="600px" />
+      </a>
+    </div>
+    <div>
+      <br />
+      <!--Адаптивне фото, чим менші розміри екрану девайсу користувача, тим менше фото буде відображатись-->
+      <picture>
+        <source media="(min-width: 650px)" srcset="../images/IMG_large.jpg" />
+        <source media="(min-width: 465px)" srcset="../images/IMG_medium.jpg" />
+        <img
+          src="../images/IMG_small.jpg"
+          alt="Моє Фото"
+          title="адаптивне фото залежно від розміру екрану"
+        />
+      </picture>
+    </div>
+
+    <div class="footer">
+      <h3>All Rights Refers To Partyka Rostyslav</h3>
+      <p>Do not try to use in commercial</p>
+      &copy; ALL RIGHTS IS RESERVED LVIV 2025 &copy;
+    </div>
+  </body>
+</html>
