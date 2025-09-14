@@ -164,12 +164,13 @@ input[type="radio"] {
 .footer{    
   width: 98%;
   text-align: center;
-  background-color: rgb(61, 61, 255);
-  padding-top: 15px;
-  padding-bottom: 25px;
+  background-color: rgba(0, 60, 255, 0.795);
+  padding-top: 18px;
+  padding-bottom: 26px;
   text-transform: capitalize;
-  letter-spacing: 3.5px;
-  line-height: 1.7;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  font-size: larger;
 }
 
 .content {
